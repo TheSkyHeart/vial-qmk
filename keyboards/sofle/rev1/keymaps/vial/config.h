@@ -26,24 +26,3 @@
 // The four corners
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 5, 3, 8 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
-
-/* ws2812 RGB LED */
-#define WS2812_DI_PIN D3
-
-#ifdef RGB_MATRIX_ENABLE
-
-#define RGBLED_NUM 72
-#define DRIVER_LED_TOTAL RGBLED_NUM
-#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 120 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash.
-#define RGB_MATRIX_HUE_STEP 8
-#define RGB_MATRIX_SAT_STEP 8
-#define RGB_MATRIX_VAL_STEP 8
-#define RGB_MATRIX_SPD_STEP 10
-#define RGB_MATRIX_KEYPRESSES
-#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
-#define RGB_MATRIX_SPLIT {36,36}
-#define SPLIT_TRANSPORT_MIRROR
-
-#endif
-
-#define ENABLE_RGB_MATRIX_BREATHING
