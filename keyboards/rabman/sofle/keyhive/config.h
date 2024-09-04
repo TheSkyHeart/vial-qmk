@@ -1,6 +1,6 @@
-/* Copyright 2020 Josef Adamcik
- * Modification for VIA support and RGB underglow by Jens Bonk-Wiltfang
- * Modification for Vial support by Drew Petersen
+/* Copyright
+ *   2021 solartempest
+ *   2021 QMK
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,14 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-// clang-format off
-
 #pragma once
 
-// Vial Support
-#define VIAL_KEYBOARD_UID { 0x05, 0xCD, 0x9F, 0x8A, 0xF4, 0xDF, 0xDE, 0xB2 }
-
-// The four corners
-#define VIAL_UNLOCK_COMBO_ROWS { 0, 5, 3, 8 }
-#define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
-
+// OLED settings
+#define OLED_TIMEOUT    80000
+#define OLED_BRIGHTNESS 90
