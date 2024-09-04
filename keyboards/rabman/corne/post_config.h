@@ -44,6 +44,6 @@
 
 #ifdef OLED_ENABLE
     #ifndef OLED_FONT_H
-        #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+        #define OLED_FONT_H "keyboards/rabman/corne/lib/glcdfont.c"
     #endif
 #endif
